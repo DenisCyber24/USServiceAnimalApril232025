@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = "src/main/resources/Features", // Path to your feature files
         glue = "StepDefinitions", // Package where your step definitions are located
         dryRun = false, // Set to false to execute tests, true to check step definition mapping
-        tags = "@emotionalAnimalSupport", // Tags to filter scenarios
+        tags = "@esaletterwithvaliddata", // Tags to filter scenarios
         plugin = {
                 "pretty", // Prints Gherkin steps in the console
                 "html:target/cucumber-reports.html", // Generates HTML report

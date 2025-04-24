@@ -290,7 +290,7 @@
             }
 
             @Then("I should confirmation of the order")
-            public void i_should_confirmation_of_the_order() throws InterruptedException {
+            public void i_should_confirmation_of_the_order() throws InterruptedException, IOException {
                 // Write code here that turns the phrase above into concrete actions
                // throw new io.cucumber.java.PendingException();
                 Thread.sleep(6000);
@@ -301,6 +301,7 @@
                 Thread.sleep(3000);
                 //driver.close();
                 CommonMethods.closeCurrentWindow();
+                CommonMethods.captureScreenshot();
 
             }
 

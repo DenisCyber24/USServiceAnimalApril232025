@@ -129,7 +129,7 @@ public class CommonMethods {
 
         File src=ts.getScreenshotAs(OutputType.FILE);
 
-        File dest=new File(Constants.SCREENSHOT_FILEPATH+"/inventory.png");
+        File dest=new File(Constants.SCREENSHOT_FILEPATH+"/ESA.png");
 
         FileUtils.copyFile(src,dest);
 
