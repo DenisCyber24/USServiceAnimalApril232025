@@ -64,6 +64,8 @@ public class emotionalAnimalSupportSteps {
 
         regPage.clickNextBtn();
 
+        Thread.sleep(3000);
+
         regPage.clickNextBtn();
     }
 

@@ -159,7 +159,8 @@ public class registerAnimalServicePage extends CommonMethods {
 
     public void clickdoYouHaveaDog(){
 
-        doYouHaveaDog.click();
+        //doYouHaveaDog.click();
+        CommonMethods.clickUsingJs(doYouHaveaDog);
     }
 
     public void clickAreYouAtleast18YearsOld(){
@@ -177,20 +178,23 @@ public class registerAnimalServicePage extends CommonMethods {
 
     public void clickisThisYourFirstTimeRegisteringYourServiceDog(){
 
-        isThisYourFirstTimeRegisteringYourServiceDog.click();
+       // isThisYourFirstTimeRegisteringYourServiceDog.click();
+        CommonMethods.clickUsingJs(isThisYourFirstTimeRegisteringYourServiceDog);
 
 
     }
 
     public void clickExemptionFromPetRentAndPetDeposits(){
 
-        exemptionFromPetRentAndPetDeposits.click();
+        //exemptionFromPetRentAndPetDeposits.click();
+        CommonMethods.clickUsingJs(exemptionFromPetRentAndPetDeposits);
     }
 
 
     public void clickHasADisabilityThatQualifies(){
 
-        hasADisabilityThatQualifies.click();
+        //hasADisabilityThatQualifies.click();
+        CommonMethods.clickUsingJs(hasADisabilityThatQualifies);
 
     }
 
@@ -246,7 +250,8 @@ public class registerAnimalServicePage extends CommonMethods {
 
     public void selectNoOfDogs(){
 
-        noofDogs.click();
+       // noofDogs.click();
+        CommonMethods.clickUsingJs(noofDogs);
     }
 
     public void setDogNames(String name1,String name2){

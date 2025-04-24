@@ -47,6 +47,7 @@
             <version>2.20.0</version> <!-- Use the latest version -->
         </dependency>
         <!-- JUnit 5 -->
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>

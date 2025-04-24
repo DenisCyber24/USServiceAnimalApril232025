@@ -202,12 +202,14 @@ public class getESALetterPage extends CommonMethods {
 
     public void selectESProductForDogs(String v1,String v2) throws InterruptedException {
 
-        selectESAProductForDog1.click();
+        //selectESAProductForDog1.click();
+        CommonMethods.clickUsingJs(selectESAProductForDog1);
 
         Select s1=new Select(regPage.selectColorOrSize1);
         s1.selectByValue(v1);
 
-        selectESAProductForDog2.click();
+       // selectESAProductForDog2.click();
+        CommonMethods.clickUsingJs(selectESAProductForDog2);
 
 //CommonMethods.waitForVisibiltyOfElement(selectColorOrSize2,1000);
 

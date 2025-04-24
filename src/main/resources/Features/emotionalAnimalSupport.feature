@@ -7,7 +7,7 @@ Feature: Emotional Animal Support
     When I answer all the quesionare for Emotional Animal support
     And I enter the details required for emotional animal support
     And I enter all the details related to animals for emotional animal support
-#    And I answer all quesionare for Emotional Evaluation
+#  And I answer all quesionare for Emotional Evaluation
 #    And I select the products ESA for the dogs
 #    And I add the contact details
 #    And I enter the credit card details
